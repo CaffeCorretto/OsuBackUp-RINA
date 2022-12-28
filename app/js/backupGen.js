@@ -11,9 +11,9 @@ function makeBackUp() {
       const code = file.slice(0, file.indexOf(" "));
       const name = file.slice(file.indexOf(" "), file.length).replace(" ", "");
 
-      const downloadUrl = `https://storage.ripple.moe/d/${code}\r\n`;
+      const downloadUrl = `https://storage.rina.place/d/${code}\r\n`;
 
-      downloadList += `${code} ${name}: ${downloadUrl}`;
+      downloadList += `${code} ${name}: ${downloadUrl}`;4
     });
 
     var dir = `${exePath}/BackUp`;
